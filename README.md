@@ -1,4 +1,4 @@
-# Frogmitest
+# Frogmi Challenge
 
 # Steps to instantiate the project
 
