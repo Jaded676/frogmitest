@@ -28,5 +28,6 @@ _This generates an AngularJS project in conjunction with a CSS preprocessor (SAS
 
 _This project was developed using the ui-router angular library that allows a more effective routing of views and components (states)._
 
+> :see_no_evil: I would have liked to create a better user experience, but I did not have enough time.
 
 > **Thank you, this was a cool test, looking forward to be part of your team**:metal: :tada:
