@@ -1,3 +1,64 @@
 body {
-  background-color: lightgrey;
+  background-color: white; }
+
+a {
+  color: #080808;
+  text-decoration: none; }
+
+a:hover, a:focus {
+  color: #999;
+  text-decoration: none; }
+
+.movie-title {
+  margin-top: 2px;
+  margin-bottom: 28px; }
+
+.movieDetail-container {
+  display: flex;
+  flex-direction: column; }
+
+.movieCover {
+  align-self: center; }
+
+.movieGen-conteiner {
+  display: flex;
+  flex-direction: column; }
+
+.movieGen {
+  align-self: center; }
+
+.movieTorrents-container {
+  align-self: center; }
+
+.movieTorrents {
+  display: flex; }
+
+h2 {
+  align-self: center; }
+
+h3{
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
+h5 {
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
+p {
+  align-self: center;
+  width: 45%; }
+
+.backButton {
+  align-self: center; }
+
+nav.navbar.navbar-inverse {
+  border-radius: 0; }
+
+@media (min-width: 768px) {
+
+.movie-item {
+    width: 19%; }
+
 }

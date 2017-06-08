@@ -1,0 +1,19 @@
+<div class="movieDetail-container">
+  <img ng-src="{{ctrlMovieDetail.movie.large_cover_image}}" class="movieCover img-responsive"></img>
+  <h2>{{ctrlMovieDetail.movie.title_long}}</h2>
+  <p>Descripcion: "{{ctrlMovieDetail.movie.description_full}}"</p>
+  <div class="movieGen-conteiner">
+    <h5>Genero:</h5>
+    <div ng-repeat="genre in ctrlMovieDetail.movie.genres" class="movieGen">
+    <p>{{genre}}</p>
+    </div>
+  </div>
+  <div class="movieTorrents-container">
+    <h5>Descarga Torrents:</h5>
+    <div ng-repeat="torrent in ctrlMovieDetail.movie.torrents" class="movieTorrents">
+      <p>{{torrent.quality}}</p>
+      <a ng-href="{{torrent.url}}">Descargar</a>
+    </div>
+  </div>
+  <button ng-click="back()" class="backButton">back</button>
+</div>

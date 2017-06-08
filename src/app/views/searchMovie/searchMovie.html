@@ -1,0 +1,9 @@
+<div class="row">
+  <h3 class="subtitle">Buscando:{{ctrlSearchMovie.params}}</h3>
+  <h5 ng-if="ctrlSearchMovie.empty"> NO SE HAN ENCONTRADO RESULTADOS </h5>
+  <div ng-click="ctrlSearchMovie.goToMovie(movie.id)" ng-repeat="movie in ctrlSearchMovie.movies" class="col-sm-3 movie-item">
+    <a href="#"><img class="img-responsive" ng-src="{{movie.medium_cover_image }}" alt=""></a>
+    <h3><a href="#">{{movie.title}}</a></h3>
+    <p>{{movie.summary}}</p>
+  </div>
+</div>

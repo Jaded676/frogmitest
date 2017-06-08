@@ -1,0 +1,11 @@
+<div class="row">
+  <div ng-click="ctrlMovies.goToMovie(movie.id)" ng-repeat="movie in ctrlMovies.movies" class="col-sm-3 movie-item">
+    <a href="#">
+      <img class="movieCover--out img-responsive" ng-src="{{movie.medium_cover_image }}" alt="">
+    </a>
+    <h4 class="movie-title">
+      <a href="#">{{movie.title}}</a>
+    </h4>
+  <!--<p>{{movie.summary}}</p>-->
+  </div>
+</div>
