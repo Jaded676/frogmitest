@@ -9,7 +9,6 @@ angular
     else{
         return $http.get('https://yts.ag/api/v2/list_movies.json');  //1. this returns promise
       }
-
   };
     vm.getSingleMovie = function(id){
       var url = 'https://yts.ag/api/v2/movie_details.json?movie_id=';

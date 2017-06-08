@@ -5,7 +5,6 @@ angular
     vm.empty = false;
     vm.params = movieService.getParams();
     getMovies.get(vm.params).then(function(data) {
-      console.log(data);
       if(data.data.data.movie_count == 0){
         vm.empty = true;
       }
@@ -13,7 +12,6 @@ angular
         vm.movies = data.data.data.movies;
         vm.empty = false;
       }
-      console.log(vm.movies);
     });
     vm.goToMovie = function(movieId){
       movieService.setMovieId(movieId);
